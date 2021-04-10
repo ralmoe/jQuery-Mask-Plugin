@@ -481,7 +481,7 @@
             options.reverse = true;
         }
 
-        if (input.attr(prefix + 'clearifnotmatch')) {
+        if (input.attr(prefix + 'clearifnotmatch') === 'true') {
             options.clearIfNotMatch = true;
         }
 
